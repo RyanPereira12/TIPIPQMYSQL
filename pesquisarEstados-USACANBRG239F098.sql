@@ -19,7 +19,3 @@ SELECT id_estado ID, nome ESTADO, regiao REGIÃO from `estados` WHERE regiao lik
 SELECT id_estado ID, nome ESTADO, regiao REGIÃO from `estados` WHERE nome like 'P%'
 
 SELECT id_estado ID, nome ESTADO, regiao REGIÃO from `estados` WHERE nome like '%O'
-
-select nome, regiao, populaçao from estados
-where populaçao >= 10
-order by populaçao
